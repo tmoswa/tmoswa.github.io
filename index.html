@@ -4,38 +4,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Timothy Moswa - Portfolio</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Add a CSS file if needed -->
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <header>
-        <h1>Timothy Moswa</h1>
-        <p>Software Engineer | 6+ Years of Experience</p>
+<body class="bg-gray-50 text-gray-800">
+    <header class="bg-blue-700 text-white p-8">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl font-bold">Timothy Moswa</h1>
+            <p class="mt-2 text-lg">Software Engineer | 6+ Years of Experience</p>
+            <div class="mt-4">
+                <a href="mailto:timothymoswa@gmail.com" class="bg-red-500 px-4 py-2 rounded-full text-white hover:bg-red-600">
+                    Email Me
+                </a>
+                <a href="https://www.linkedin.com/in/timothy-moswa-b63944105/" target="_blank" 
+                   class="bg-blue-500 px-4 py-2 rounded-full text-white hover:bg-blue-600">
+                    LinkedIn
+                </a>
+            </div>
+        </div>
     </header>
-    <main>
-        <section id="skills">
-            <h2>Technical Skills</h2>
-            <ul>
-                <li><strong>Programming Languages:</strong> JavaScript, TypeScript, PHP (Core), Laravel</li>
+
+    <main class="container mx-auto my-8 px-4">
+        <!-- Skills Section -->
+        <section id="skills" class="my-12">
+            <h2 class="text-2xl font-bold border-b-2 border-blue-700 pb-2">Technical Skills</h2>
+            <ul class="grid grid-cols-2 gap-4 mt-4 text-lg">
+                <li><strong>Languages:</strong> JavaScript, TypeScript</li>
                 <li><strong>Frameworks:</strong> Node.js, Express.js, React.js, Next.js</li>
-                <li><strong>Databases:</strong> MongoDB, MySQL, PostgreSQL, etc.</li>
+                <li><strong>Databases:</strong> MongoDB, MySQL, PostgreSQL, SQLite, Oracle</li>
                 <li><strong>Cloud Platforms:</strong> AWS (EC2, S3, Lambda)</li>
-                <li><strong>DevOps:</strong> Docker, Kubernetes</li>
-                <li><strong>Others:</strong> I also have knowledge in Java(Springboot)-3 commercial projects && Python(Django) 2 commercial projects</li>
+                <li><strong>DevOps:</strong> Docker, Kubernetes, Jenkins</li>
+                <li><strong>Other Tools:</strong> Jest, Prometheus, Grafana</li>
             </ul>
         </section>
-        <section id="projects">
-            <h2>Notable Projects</h2>
-            <div>
-                <h3>Management Information System (M.I.S)</h3>
-                <p>Designed and implemented a system to streamline the agricultural production lifecycle.</p>
+
+        <!-- Projects Section -->
+        <section id="projects" class="my-12">
+            <h2 class="text-2xl font-bold border-b-2 border-blue-700 pb-2">Notable Projects</h2>
+            <div class="mt-4 space-y-8">
+                <div>
+                    <h3 class="text-xl font-bold">Management Information System (M.I.S)</h3>
+                    <p class="text-gray-700">Streamlined the agricultural production lifecycle using Node.js and React.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold">Financial Service System</h3>
+                    <p class="text-gray-700">Built a secure financial platform leveraging AWS and PostgreSQL.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold">IT Audit System</h3>
+                    <p class="text-gray-700">Developed a comprehensive compliance monitoring tool.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold">Sales and Logistics System</h3>
+                    <p class="text-gray-700">Implemented an inventory and route optimization system using Next.js.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold">HR Systems</h3>
+                    <p class="text-gray-700">Created a GDPR-compliant HR management platform with MongoDB and Docker.</p>
+                </div>
             </div>
-            <!-- Add more project summaries -->
         </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Email: timothymoswa@gmail.com</p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/timothy-moswa-b63944105/" target="_blank">Timothy Moswa</a></p>
+
+        <!-- Work Experience -->
+        <section id="work" class="my-12">
+            <h2 class="text-2xl font-bold border-b-2 border-blue-700 pb-2">Work Experience</h2>
+            <ul class="space-y-4 mt-4">
+                <li>
+                    <strong>Web Developer</strong> - Staxo Group (UK) | 2024 – Present  
+                    <p class="text-gray-700">Backend/frontend development, deployment, and code reviews.</p>
+                </li>
+                <li>
+                    <strong>Software Engineer</strong> - Zark Zimbabwe | 2018 – 2024  
+                    <p class="text-gray-700">Migrated legacy systems and optimized performance.</p>
+                </li>
+                <li>
+                    <strong>Software Engineer</strong> - Dienstenlandkaart (Netherlands) | 2019 – 2024  
+                    <p class="text-gray-700">Developed integration platforms and improved UI/UX.</p>
+                </li>
+                <li>
+                    <strong>Lead Software Engineer</strong> - Inclusive Financial Services (Zimbabwe) | 2017 – 2018  
+                    <p class="text-gray-700">Led team evaluations and API development.</p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="my-12">
+            <h2 class="text-2xl font-bold border-b-2 border-blue-700 pb-2">Contact Me</h2>
+            <p>Email: <a href="mailto:timothymoswa@gmail.com" class="text-blue-600 hover:underline">timothymoswa@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/timothy-moswa-b63944105/" target="_blank" class="text-blue-600 hover:underline">Timothy Moswa</a></p>
         </section>
     </main>
+
+    <footer class="bg-gray-800 text-white text-center p-4">
+        © 2024 Timothy Moswa. All rights reserved.
+    </footer>
 </body>
 </html>
