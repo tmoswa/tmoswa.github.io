@@ -7,21 +7,31 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-50 text-gray-800">
-    <header class="bg-gray-700 text-white p-8">
-        <div class="container mx-auto text-center">
-            <h1 class="text-4xl font-bold">Timothy Moswa</h1>
-            <p class="mt-2 text-lg">Software Engineer | 6+ Years of Experience</p>
-            <div class="mt-4">
+    <header class="bg-gray-700 text-white p-4 md:p-8 sticky top-0 z-50 shadow-md">
+        <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
+            <!-- Profile Picture -->
+            <a href="pic.jpg" target="_blank">
+                <img src="pic.jpg" alt="Timothy Moswa" class="w-16 h-16 md:w-24 md:h-24 rounded-full object-cover">
+            </a>
+    
+            <!-- Name and Bio -->
+            <div class="text-center md:text-left mt-4 md:mt-0">
+                <h1 class="text-4xl font-bold">Timothy Moswa</h1>
+                <p class="mt-2 text-lg">Software Engineer | 6+ Years of Experience</p>
+            </div>
+    
+            <!-- Links -->
+            <div class="mt-4 md:mt-0 flex space-x-4">
                 <a href="mailto:timothymoswa@gmail.com" class="bg-red-500 px-4 py-2 rounded-full text-white hover:bg-red-600">
                     Email Me
                 </a>
-                <a href="https://www.linkedin.com/in/timothy-moswa-b63944105/" target="_blank" 
-                   class="bg-blue-500 px-4 py-2 rounded-full text-white hover:bg-blue-600">
+                <a href="https://www.linkedin.com/in/timothy-moswa-b63944105/" target="_blank" class="bg-blue-500 px-4 py-2 rounded-full text-white hover:bg-blue-600">
                     LinkedIn
                 </a>
             </div>
         </div>
     </header>
+    
 
     <main class="container mx-auto my-8 px-4">
         <!-- Skills Section -->
@@ -207,7 +217,7 @@
                         </div>
                 
                         <p class="text-gray-700 mt-4">
-                            <strong>Impact:</strong> The platform enables efficient financial data management, providing users with real-time access to their banking transactions, while securely integrating with legacy banking systems in Zimbabwe. Enhanced user experience, improved financial data accuracy, and simplified banking processes have led to greater customer satisfaction and system reliability.
+                            <strong>Impact:</strong> The platform enables efficient financial data management, providing users with real-time access to their loan disbursements, while securely integrating with legacy banking systems(few selected). Enhanced user experience, improved financial data accuracy, and simplified banking processes have led to greater customer satisfaction and system reliability.
                         </p>
                     </div>
                 </div>
