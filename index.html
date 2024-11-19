@@ -42,7 +42,7 @@
             <h2 class="text-2xl font-bold border-b-2 border-gray-700 pb-2">Notable Projects</h2>
             <div class="mt-4 space-y-8">
                 <div class="bg-gray-100 p-6 rounded-lg shadow-md">
-                    <h3 class="text-xl font-bold text-gray-800">Management Information System (M.I.S)</h3>
+                    <h3 class="text-xl font-bold text-gray-800">Management Information System (M.I.S)<span class="text-sm">(Developed in 6 Years and "i" being the Lead Developer)</span></h3>
                     <p class="text-gray-700 mt-2">
                         A comprehensive system named <strong>"Daily Deep Dive"</strong>, designed to streamline the agricultural production lifecycle of tobacco. Built using a microservices architecture, the system efficiently integrates various technologies to support Farming, Auction Floors, Export, and Cigarette Production.
                     </p>
@@ -69,7 +69,7 @@
                                 <li>APIs:
                                     <ul class="list-disc ml-6">
                                         <li><span class="font-medium">REST API</span>: For real-time bidding and updates.</li>
-                                        <li><span class="font-medium">SOAP API</span>: For legacy system compatibility.</li>
+                                        <li><span class="font-medium">SOAP API</span>: For Government legacy system compatibility.</li>
                                     </ul>
                                 </li>
                                 <li>Database: <span class="font-medium">MySQL</span> for bid transactions and payment records, using <span class="font-medium">Sequelize ORM</span> for streamlined operations.</li>
@@ -132,14 +132,157 @@
                     </p>
                 </div>
                 
-                <div>
-                    <h3 class="text-xl font-bold">Financial Service System</h3>
-                    <p class="text-gray-700">Built a secure financial platform leveraging AWS and PostgreSQL.</p>
+                <div class="mt-4 space-y-8">
+                    <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold text-gray-800">Financial Service System <span class="text-sm">(Developed as Lead Developer)</span></h3>
+                        <p class="text-gray-700 mt-2">
+                            A robust financial service system designed to integrate with Zimbabwe's banking infrastructure, enabling seamless transactions and data management. The platform leverages cutting-edge technologies, including Next.js for frontend development, Plaid for banking data aggregation, and Java-based microservices for secure backend integration. The system is hosted on a Virtual Private Server (VPS) to ensure reliable performance and security.
+                        </p>
+                
+                        <div class="mt-4 space-y-4">
+                            <!-- Frontend Architecture -->
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-800">Frontend Architecture</h4>
+                                <ul class="list-disc list-inside text-gray-700 mt-2">
+                                    <li>Frontend: <span class="font-medium">Next.js</span> for building fast and dynamic user interfaces with server-side rendering and static site generation.</li>
+                                    <li>UI Design: <span class="font-medium">Tailwind CSS</span> for rapid styling and a responsive layout.</li>
+                                    <li>State Management: <span class="font-medium">React Context API</span> for handling global state across the application.</li>
+                                    <li>Authentication: <span class="font-medium">JWT Authentication</span> for secure user login and data protection.</li>
+                                </ul>
+                            </div>
+                
+                            <!-- Backend Architecture -->
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-800">Backend Architecture</h4>
+                                <ul class="list-disc list-inside text-gray-700 mt-2">
+                                    <li>Backend: <span class="font-medium">Java Microservices</span> for modularity and scalability, ensuring ease of maintenance and flexibility.</li>
+                                    <li>Data Aggregation: <span class="font-medium">Plaid API</span> to securely link bank accounts and fetch transactional data.</li>
+                                    <li>API Integration: 
+                                        <ul class="list-disc ml-6">
+                                            <li><span class="font-medium">SOAP API</span>: Used for legacy integration with the Zimbabwean banking system.</li>
+                                            <li><span class="font-medium">REST API</span>: For secure communication between frontend and backend services.</li>
+                                        </ul>
+                                    </li>
+                                    <li>Database: <span class="font-medium">PostgreSQL</span> for transactional and relational data storage.</li>
+                                </ul>
+                            </div>
+                
+                            <!-- Storage and File Handling -->
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-800">Storage and File Handling</h4>
+                                <ul class="list-disc list-inside text-gray-700 mt-2">
+                                    <li>Storage: <span class="font-medium">Appwrite</span> for scalable storage solutions, handling user files, and documents securely.</li>
+                                </ul>
+                            </div>
+                        </div>
+                
+                        <!-- Infrastructure and Deployment -->
+                        <div class="mt-6">
+                            <h4 class="text-lg font-semibold text-gray-800">Infrastructure and Deployment</h4>
+                            <ul class="list-disc list-inside text-gray-700 mt-2">
+                                <li><span class="font-medium">VPS Hosting:</span> The system is hosted on a Virtual Private Server for high availability, custom configurations, and cost-effectiveness.</li>
+                                <li><span class="font-medium">Docker:</span> Containerized microservices for consistent and reproducible environments.</li>
+                                <li><span class="font-medium">CI/CD:</span> Implemented Continuous Integration/Continuous Deployment pipelines using GitHub Actions for automated testing and deployment.</li>
+                            </ul>
+                        </div>
+                
+                        <!-- Monitoring and Error Handling -->
+                        <div class="mt-6">
+                            <h4 class="text-lg font-semibold text-gray-800">Monitoring and Error Handling</h4>
+                            <ul class="list-disc list-inside text-gray-700 mt-2">
+                                <li><span class="font-medium">Sentry:</span> Integrated for real-time error tracking and automated issue resolution, ensuring a seamless user experience.</li>
+                                <li><span class="font-medium">Logging:</span> Implemented centralized logging with <span class="font-medium">Logstash</span> and <span class="font-medium">Elasticsearch</span> for efficient monitoring.</li>
+                                <li><span class="font-medium">Health Monitoring:</span> System health and performance tracked using custom monitoring dashboards.</li>
+                            </ul>
+                        </div>
+                
+                        <!-- Security Features -->
+                        <div class="mt-6">
+                            <h4 class="text-lg font-semibold text-gray-800">Security Features</h4>
+                            <ul class="list-disc list-inside text-gray-700 mt-2">
+                                <li><span class="font-medium">Data Encryption:</span> All sensitive data is encrypted at rest and during transit using AES and TLS protocols.</li>
+                                <li><span class="font-medium">OAuth2 Authentication:</span> Provides secure user access management with support for third-party login integrations.</li>
+                                <li><span class="font-medium">Role-Based Access Control (RBAC):</span> Ensures only authorized users have access to specific system features and sensitive data.</li>
+                            </ul>
+                        </div>
+                
+                        <p class="text-gray-700 mt-4">
+                            <strong>Impact:</strong> The platform enables efficient financial data management, providing users with real-time access to their banking transactions, while securely integrating with legacy banking systems in Zimbabwe. Enhanced user experience, improved financial data accuracy, and simplified banking processes have led to greater customer satisfaction and system reliability.
+                        </p>
+                    </div>
                 </div>
-                <div>
-                    <h3 class="text-xl font-bold">IT Audit System</h3>
-                    <p class="text-gray-700">Developed a comprehensive compliance monitoring tool.</p>
+                
+                <div class="mt-4 space-y-8">
+                    <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold text-gray-800">IT Audit System</h3>
+                        <p class="text-gray-700 mt-2">Developed a comprehensive compliance monitoring tool for tracking internal system calls, ticket response times, and ensuring adherence to operational standards. The system leverages an API-driven architecture to collect and analyze data in real time, providing insights into the performance and responsiveness of internal IT operations.</p>
+                
+                        <div class="mt-4 space-y-4">
+                            <!-- System Architecture -->
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-800">System Architecture</h4>
+                                <ul class="list-disc list-inside text-gray-700 mt-2">
+                                    <li>Frontend: <span class="font-medium">ReactJS</span> to build an interactive and responsive user interface that communicates with backend services.</li>
+                                    <li>Backend: <span class="font-medium">Laravel</span> to handle business logic, data processing, and secure API interactions.</li>
+                                    <li>Database: <span class="font-medium">MySQL</span> used for storing system logs, ticket data, response times, and compliance records.</li>
+                                    <li>API Integration: <span class="font-medium">Internal System API</span> provides the data necessary for the audit process, fetching system calls and ticket-related information in real-time.</li>
+                                    <li>Real-Time Monitoring: Integrated tools that continuously monitor API calls, analyze ticket response times, and track KPIs related to system performance.</li>
+                                </ul>
+                            </div>
+                
+                            <!-- Deployment and Environment Management -->
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-800">Deployment and Environment Management</h4>
+                                <ul class="list-disc list-inside text-gray-700 mt-2">
+                                    <li><span class="font-medium">Laravel Forge:</span> Utilized for seamless deployment and management of Laravel applications. Ensures smooth deployment of both staging and production environments.</li>
+                                    <li><span class="font-medium">VPS Hosting:</span> The system is deployed on a <span class="font-medium">Virtual Private Server (VPS)</span>, providing full control over server configurations and optimal performance for the application.</li>
+                                    <li>Environment Setup: The application is structured into three distinct environments:
+                                        <ul class="list-disc ml-6">
+                                            <li><span class="font-medium">Development:</span> Dedicated environment for feature development, testing, and debugging.</li>
+                                            <li><span class="font-medium">Staging:</span> Pre-production environment for QA and user acceptance testing (UAT) to simulate the live system with actual data.</li>
+                                            <li><span class="font-medium">Production:</span> Live environment for end-users, ensuring the stability, scalability, and security of the system.</li>
+                                        </ul>
+                                    </li>
+                                    <li><span class="font-medium">CI/CD Pipeline:</span> Continuous Integration and Deployment set up using GitHub Actions to automate testing, building, and deployment processes across all environments.</li>
+                                </ul>
+                            </div>
+                
+                            <!-- Real-Time Data Analytics -->
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-800">Real-Time Data Analytics</h4>
+                                <ul class="list-disc list-inside text-gray-700 mt-2">
+                                    <li><span class="font-medium">Ticket Response Time Analysis:</span> The system analyzes response times of support tickets, highlighting delays and ensuring that internal service level agreements (SLAs) are met.</li>
+                                    <li><span class="font-medium">System Calls Monitoring:</span> API calls are monitored in real-time to detect any anomalies, ensuring optimal performance and identifying areas for improvement.</li>
+                                    <li><span class="font-medium">Octagonal Presentation:</span> The system displays data using a visually appealing octagonal presentation style similar to <a href="https://www.dienstenlandkaart.nl/" target="_blank" class="text-blue-600">Dienstenlandkaart</a>, making it easy to understand complex data at a glance. This visual model helps track performance metrics and system health in a user-friendly way.</li>
+                                </ul>
+                            </div>
+                
+                            <!-- Security Features -->
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-800">Security Features</h4>
+                                <ul class="list-disc list-inside text-gray-700 mt-2">
+                                    <li><span class="font-medium">Role-Based Access Control (RBAC):</span> Ensures that only authorized users can access sensitive audit data and system logs, with granular permissions based on user roles.</li>
+                                    <li><span class="font-medium">Data Encryption:</span> All sensitive data stored in the database is encrypted using advanced encryption standards to prevent unauthorized access.</li>
+                                    <li><span class="font-medium">Secure API Communication:</span> API calls are secured using OAuth2 authentication and encrypted with TLS, ensuring safe data exchange between the frontend and backend systems.</li>
+                                </ul>
+                            </div>
+                
+                            <!-- System Access -->
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-800">System Access</h4>
+                                <p class="text-gray-700 mt-2">The actual system can be accessed via <a href="https://portal.dienstenlandkaart.nl/#/signin" target="_blank" class="text-blue-600">this portal</a> where authorized users can log in to view detailed reports, ticket analytics, and system performance data.</p>
+                            </div>
+                
+                        </div>
+                
+                        <!-- Attached Image -->
+                        <div class="mt-6">
+                            <h4 class="text-lg font-semibold text-gray-800">Visual Representation</h4>
+                            <img src="portal_img.png" alt="IT Audit System" class="rounded-lg shadow-lg mt-4 w-full max-w-lg mx-auto">
+                        </div>
+                    </div>
                 </div>
+                
                 <div>
                     <h3 class="text-xl font-bold">Sales and Logistics System</h3>
                     <p class="text-gray-700">Implemented an inventory and route optimization system using Next.js.</p>
