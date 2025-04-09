@@ -4,13 +4,13 @@
 # **Timothy Moswa - Software Engineer**  
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/timothy-moswa-b63944105/) [![Email](https://img.shields.io/badge/Email-timothymoswa@gmail.com-red?style=flat&logo=gmail&logoColor=white)](mailto:timothymoswa@gmail.com)  
 
-🎯 Passionate software engineer with **6+ years of experience** in developing scalable, high-performance software solutions. Proficient in modern technologies like **Node.js**, **React.js**, **SQL/NoSQL Databases**, and **Cloud Platforms**. A proven track record of improving system performance and delivering high-quality projects.
+🎯 Passionate software engineer with **8+ years of experience** in developing scalable, high-performance software solutions. Proficient in modern technologies like **Node.js**, **React.js**, **SQL/NoSQL Databases**, and **Cloud Platforms**. A proven track record of improving system performance and delivering high-quality projects.
 
 ---
 
 ## 🛠 **Technical Skills**
-- **Programming Languages:** JavaScript, TypeScript  
-- **Frameworks & Libraries:** Node.js, Express.js, React.js, Next.js  
+- **Programming Languages:** PHP, Java, Python, JavaScript, TypeScript  
+- **Frameworks & Libraries:** Spring & Spring Boot, Django, Node.js, Express.js, React.js, Next.js  
 - **Databases:** MongoDB, MySQL, PostgreSQL, SQLite, Oracle  
 - **Cloud Platforms:** AWS (EC2, S3, EKS, Lambda, SQS)  
 - **DevOps Tools:** Docker, Kubernetes, Jenkins, SonarQube  
